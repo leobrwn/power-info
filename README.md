@@ -48,7 +48,7 @@ Quick method, for testing:
 ```bash
 chmod +x power-info.sh
 mkdir -p ~/.local/bin
-cp bat.sh ~/.local/bin/power-info
+cp power-info.sh ~/.local/bin/power-info
 ```
 
 Make sure `~/.local/bin` is on your `$PATH`:
