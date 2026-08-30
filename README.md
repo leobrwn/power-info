@@ -46,7 +46,7 @@
 Quick method, for testing:
 
 ```bash
-chmod +x bat.sh
+chmod +x power-info.sh
 mkdir -p ~/.local/bin
 cp bat.sh ~/.local/bin/power-info
 ```
@@ -74,7 +74,7 @@ source ~/.bashrc
 ### Other distros (Fedora, Ubuntu, Debian, Arch, etc.)
 
 ```bash
-chmod +x bat.sh
+chmod +x power-info.sh
 mkdir -p ~/.local/bin
 cp bat.sh ~/.local/bin/power-info
 ```
@@ -89,7 +89,7 @@ to your `~/.bashrc` (or `~/.zshrc`), then `source` it.
 **System-wide install** (available to all users):
 
 ```bash
-sudo cp bat.sh /usr/local/bin/power-info
+sudo cp power-info.sh /usr/local/bin/power-info
 sudo chmod +x /usr/local/bin/power-info
 ```
 
