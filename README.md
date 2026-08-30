@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo.png" alt="power-info logo" width="500">
+  <img src="./logo.png" alt="power-info logo" width="500">
 </p>
 
 <p align="center">
