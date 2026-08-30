@@ -3,22 +3,24 @@
 </p>
 
 <p align="center">
-  A simple, colorful battery health &amp; status checker for Linux, built on <code>upower</code>.
+  A simple, colourful battery health &amp; status checker for Linux, built on <code>upower</code>.
 </p>
 
 ---
 
 ## What is this?
 
-`power-info` is a lightweight Bash CLI tool that reads your laptop battery's health and status via `upower` and prints a clean, color-coded summary straight to your terminal. No dependencies beyond `upower` and `bash` — nothing to compile, nothing to install through a package manager.
+`power-info` is a lightweight Bash CLI tool that reads your laptop battery's health and status via `upower` and prints a clean, colour-coded summary straight to your terminal. No dependencies beyond `upower` and `bash` — nothing to compile, nothing to install through a package manager.
+
+Comments in the code are made by me not AI, i made them i do can look back o the code and read it easily 
 
 ## Features
 
-- 🔋 **Battery health tracking** — shows long-term wear (current max capacity vs. original design capacity), color-coded:
+- 🔋 **Battery health tracking** — shows long-term wear (current max capacity vs. original design capacity), colour-coded:
   - 🟢 Green: above 80% — healthy
   - 🟡 Yellow: 60–80% — noticeably degraded
   - 🔴 Red: below 60% — worth keeping an eye on
-- ⚡ **Live charge percentage**, color-coded:
+- ⚡ **Live charge percentage**, colour-coded:
   - 🟢 Green: above 75%
   - 🟡 Yellow: 50–75%
   - 🔴 Red: below 50%
