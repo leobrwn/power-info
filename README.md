@@ -76,7 +76,7 @@ source ~/.bashrc
 ```bash
 chmod +x power-info.sh
 mkdir -p ~/.local/bin
-cp bat.sh ~/.local/bin/power-info
+cp power-info.sh ~/.local/bin/power-info
 ```
 
 `~/.local/bin` is on `$PATH` by default on most modern distros. If not, add:
@@ -98,7 +98,7 @@ sudo chmod +x /usr/local/bin/power-info
 If you're planning to keep editing the script, a symlink is more convenient than a copy — it keeps the installed command in sync with your working file automatically:
 
 ```bash
-ln -sf /path/to/bat.sh ~/.local/bin/power-info
+ln -sf /path/to/power-info.sh ~/.local/bin/power-info
 ```
 
 ## Usage
