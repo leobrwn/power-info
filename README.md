@@ -137,6 +137,6 @@ Planned features:
 - Scheduled logging via a systemd timer (or cron), for tracking battery health over time
 - Power profile switching (performance / balanced / power-saver)
 
-## License
+
 
 Add your license of choice here.
